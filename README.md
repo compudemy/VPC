@@ -149,7 +149,32 @@ Click Save routes.
 
 ![image](https://user-images.githubusercontent.com/103466963/171228801-e15f0b18-b7b8-43b1-820b-a24439623ff2.png)
 
+Remove everything from AWS (Clean up)
+When you're finished you can remove/delete all of the AWS resources created in the tutorial to avoid incurring any unnecessary costs.
 
+Follow these steps to clean up the resources created in AWS:
+
+Delete NAT Gateway
+
+Go to the VPC Service section and select NAT Gateways in the left menu.
+
+Select the NAT gateway created above (my-nat-gateway) and click Actions and Delete NAT gateway.
+
+Enter delete into the confirmation text field and click Delete.
+
+Release Elastic IP
+
+After the NAT gateway is deleted select Elastic IP addresses in the left menu.
+
+Select the IP address that was allocated to the NAT gateway, click Actions and Release Elastic IP address.
+
+Delete VPC
+
+Select Your VPCs in the left menu.
+
+Select the VPC you created at the start of the tutorial (my-vpc) and click Actions and Delete VPC.
+
+Enter delete into the confirmation text field and click Delete.
 
 
 
