@@ -76,6 +76,43 @@ Click Create subnet
 
 ![image](https://user-images.githubusercontent.com/103466963/171225820-57cad5b5-b052-4b81-8b8c-3b3940cea649.png)
 
+# Create Internet Gateway (IGW)
+
+An AWS internet gateway (IGW) is used to enable internet access to and from subnets in your VPC. A subnet that routes traffic to an IGW is a public subnet, and a subnet that doesn't route traffic to an IGW is a private subnet. Routes are configured in route tables that we'll cover shortly.
+
+Follow these steps to create an IGW and attach it to your VPC:
+
+Select Internet Gateways in the left menu.
+
+Click Create internet gateway and enter the following details:
+
+Name tag - Enter a name for the internet gateway (e.g. my-internet-gateway)
+
+Click Create internet gateway.
+
+Select Actions -> Attach to VPC.
+
+Select the VPC you created above and click Attach internet gateway.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
