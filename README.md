@@ -38,12 +38,41 @@ Click Create subnet and enter the following details:
 
 VPC ID - Select the VPC you created above.
 
-Enter the following details:
+Subnet settings - Click Add new subnet three times to make four new subnet forms.
+
+Subnet 1 of 4 - Enter the following details:
 
 Subnet name - Enter public-subnet-1
 
 Availability Zone - Select the first option (e.g. ap-southeast-2a)
 
 Enter a CIDR block for each subnet that fits into your VPC CIDR block (e.g 10.0.0.0/24)
+
+Subnet 2 of 4 - Enter the following details:
+
+Subnet name - Enter public-subnet-2
+
+Availability Zone - Select the second option (e.g. ap-southeast-2b). This must be in a different AZ to public-subnet-1.
+
+Enter a CIDR block for each subnet that fits into your VPC CIDR block (e.g 10.0.1.0/24)
+
+Subnet 3 of 4 - Enter the following details:
+
+Subnet name - Enter private-subnet-1
+
+Availability Zone - Select the first option (e.g. ap-southeast-2a)
+
+Enter a CIDR block for each subnet that fits into your VPC CIDR block (e.g 10.0.2.0/24)
+
+Subnet 4 of 4 - Enter the following details:
+
+Subnet name - Enter private-subnet-2
+
+Availability Zone - Select the second option (e.g. ap-southeast-2b). This must be in a different AZ to private-subnet-1.
+
+Enter a CIDR block for each subnet that fits into your VPC CIDR block (e.g 10.0.3.0/24)
+
+Click Create subnet
+
 
 
