@@ -116,6 +116,9 @@ Elastic IP allocation ID - Click Allocate Elastic IP to create a new elastic IP 
 
 Click Create NAT gateway.
 
+![image](https://user-images.githubusercontent.com/103466963/171227722-333f56fd-1c0a-4fd2-9f6e-fa5c3f91b7b9.png)
+
+
 
 
 
