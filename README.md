@@ -23,7 +23,10 @@ To create a VPC with a Public and Private Subnet, select the second option from 
 
 ![image](https://user-images.githubusercontent.com/103466963/171211918-5aacd0b1-5df2-4a0f-b999-387ba6830572.png)
 
-Here, you can specify the CIDR block, which means the IP range of the Public and Private Subnet. Both these networks will have different IP range . Both these subnets will be a subset of the main VPC CIDR. 
+Here, you can specify the CIDR block, which means the IP range of the Public and Private Subnet. Both these networks will have different IP range . Both these subnets will be a subset of the main VPC CIDR.
+
+![image](https://user-images.githubusercontent.com/103466963/171216949-4c1c1591-f9c6-4ad9-af25-d04e8ed483b1.png)
+
 
 
 
