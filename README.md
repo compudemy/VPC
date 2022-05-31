@@ -28,6 +28,22 @@ Here, you can specify the CIDR block, which means the IP range of the Public and
 ![image](https://user-images.githubusercontent.com/103466963/171216949-4c1c1591-f9c6-4ad9-af25-d04e8ed483b1.png)
 
 
+# Create Public and Private Subnets
 
+Next we'll create the subnets inside our VPC that will hold our AWS resources.
+
+Select Subnets in the left menu.
+
+Click Create subnet and enter the following details:
+
+VPC ID - Select the VPC you created above.
+
+Enter the following details:
+
+Subnet name - Enter public-subnet-1
+
+Availability Zone - Select the first option (e.g. ap-southeast-2a)
+
+Enter a CIDR block for each subnet that fits into your VPC CIDR block (e.g 10.0.0.0/24)
 
 
