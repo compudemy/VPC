@@ -94,11 +94,27 @@ Select Actions -> Attach to VPC.
 
 Select the VPC you created above and click Attach internet gateway.
 
+![image](https://user-images.githubusercontent.com/103466963/171226930-4529a5bb-2113-4a55-9dc7-b8b63d21bfe0.png)
+
+![image](https://user-images.githubusercontent.com/103466963/171227265-586e6cc0-55cf-4f55-95ae-57d5adc516f2.png)
 
 
+# Create NAT Gateway
+A network address translation (NAT) gateway is used to provide outbound internet access to AWS resources running in private subnets. A NAT gateway is located in a public subnet and acts like a proxy for outbound traffic from private subnets that route their traffic to the NAT gateway.
 
+Follow these steps to create a NAT gateway in your public subnet:
 
+Select NAT Gateways in the left menu.
 
+Click Create NAT gateway and enter the following details:
+
+Name - Enter a name for the NAT gateway (e.g my-nat-gateway).
+
+Subnet - Select the subnet with the name public-subnet-1.
+
+Elastic IP allocation ID - Click Allocate Elastic IP to create a new elastic IP for the NAT gateway.
+
+Click Create NAT gateway.
 
 
 
