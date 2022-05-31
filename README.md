@@ -143,8 +143,11 @@ Click Save routes.
 
 ![image](https://user-images.githubusercontent.com/103466963/171228406-1e96cc20-7381-41c2-b464-bb5501b838fb.png)
 
+![image](https://user-images.githubusercontent.com/103466963/171228649-dacefb46-11e9-43cb-843a-982064b843a1.png)
 
+![image](https://user-images.githubusercontent.com/103466963/171228712-2ff87d0d-fcd9-4d0f-a946-56b443cd0970.png)
 
+![image](https://user-images.githubusercontent.com/103466963/171228801-e15f0b18-b7b8-43b1-820b-a24439623ff2.png)
 
 
 
