@@ -74,5 +74,8 @@ Enter a CIDR block for each subnet that fits into your VPC CIDR block (e.g 10.0.
 
 Click Create subnet
 
+![image](https://user-images.githubusercontent.com/103466963/171225820-57cad5b5-b052-4b81-8b8c-3b3940cea649.png)
+
+
 
 
