@@ -118,6 +118,30 @@ Click Create NAT gateway.
 
 ![image](https://user-images.githubusercontent.com/103466963/171227722-333f56fd-1c0a-4fd2-9f6e-fa5c3f91b7b9.png)
 
+# Configure Route Tables
+Route tables are used to control where network traffic is routed from subnets. Each VPC has one Main route table that is used by default for any subnet that isn't explicitly associated with a route table.
+
+# Configure VPC main route table to be private
+Here we'll configure the main route table in the VPC to target the NAT gateway to make subnets private by default. A private subnet is not accessible from the internet but can be given outbound internet access via a NAT Gateway located in a public subnet.
+
+Follow these steps to configure the VPC main route table to be private:
+
+Select Route Tables in the left menu.
+
+Select the main route table for the VPC you created above.
+
+Hover the mouse over the Name column of the selected route table, then click the edit icon and enter the name main-route-table.
+
+Click the Routes tab below and click Edit routes.
+
+Click Add route and enter the following details:
+
+Destination - Enter 0.0.0.0/0 to match all non-local traffic.
+
+Target - Select NAT Gateway then select the NAT gateway you created above.
+Click Save routes.
+
+![image](https://user-images.githubusercontent.com/103466963/171228406-1e96cc20-7381-41c2-b464-bb5501b838fb.png)
 
 
 
